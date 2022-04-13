@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="-1" width="80" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" source="level4.tsx"/>
+ <layer id="4" name="Don't touch" width="80" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzMEKABAQRVHFzv//r700LBRxTt3N1LyUAAAAAOBPdfEG3CVPitSuaHf084IyadfuaQ2RTwC4
+  </data>
+ </layer>
+ <layer id="3" name="details" width="80" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEKgDAMBNBkcSs66///p4tFBBsX76rpvUVBaZpDbKmZiMh4FlKdiVSHpRzXGTD2BhhzJFnzY/W1kuqwsfpSfv+ow5a1r16KneuwiGCh9x8OHr93/ez/fzdshl/L781e3fD5sd2tzd64j96L1HOFp/y8MZ+q9Sw6txhp75Hpu5SrHUa+Adk=
+  </data>
+ </layer>
+ <layer id="2" name="Coins" width="80" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1VsKwDAIRNGsIvtfav+FBjFjtXIPlP5Um8eQrAUAUNnmgQ5rik7IIxRUOeqUx4yxTL1XJ87JUszxdv+9dVNzFtV5HRSZ8NRG+nv7Vq7vNu/s/6i/jYicA281X+1dVkbVMu78vzplx2arIvOncXn6VZ9dwI0Hh74Fww==
+  </data>
+ </layer>
+ <layer id="1" name="Platformers" width="80" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztl+0KgzAMRYswdGMIkw2393/RVVgxlNg5e2vsuAfuH79iDqFV5wghhJBj0Pj0Ilfb14Fx92lFHjvXf4rar51rExLDeSQIUHN0pHmUeyBq/7Pef0rxq6ubmx3UAmI2c7+rgreLz+kTjX+ds61o3lL+aqLEOhVIeQuRczaA69fKGm9aRod1GK83Vv9ycr1P9bfVW0mH1kxOpI+l/uLrctNm5Lyiry5xv8bSOe24fJbmZFRqIt0h8g3Uc637fAPfwgje
+  </data>
+ </layer>
+</map>

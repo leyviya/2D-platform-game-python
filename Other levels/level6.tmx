@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="-1" width="60" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="level5" tilewidth="1" tileheight="1" tilecount="0" columns="0"/>
+ <tileset firstgid="1" source="level5.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="60" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk8kKwCAMBSvdqF3+/3NrDkIQQ12itOUNzDUyxAwDAAAAAAAA/8UySzicF/MNSE2j0zCnzLnUejp3Zi9aNXnCPZJhq3Zv6yaJ2B4ltaCmmandJEGtKZ29/3MLclu/3FvSSq6J861gLVvEJ3LuNdQouBRY815Jp/cG/XIF8Q==
+  </data>
+ </layer>
+</map>
