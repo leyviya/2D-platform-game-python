@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="-1" width="100" height="100" tilewidth="20" tileheight="15" infinite="1" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="../Documents/grass.tsx"/>
+ <tileset firstgid="49" source="../Documents/boxCrate_double.tsx"/>
+ <tileset firstgid="97" source="../Documents/lavaTop_high.tsx"/>
+ <tileset firstgid="145" source="../Documents/grassCliff_right.tsx"/>
+ <tileset firstgid="193" source="../Documents/grassCliff_left.tsx"/>
+ <tileset firstgid="241" name="coinGold" tilewidth="20" tileheight="15" tilecount="48" columns="6">
+  <image source="coinGold.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="289" name="maleAdventurer_idle" tilewidth="20" tileheight="15" tilecount="32" columns="4">
+  <image source="maleAdventurer_idle.png" width="96" height="128"/>
+ </tileset>
+ <tileset firstgid="321" name="maleAdventurer_idle-bigger-size" tilewidth="20" tileheight="15" tilecount="315" columns="7">
+  <image source="maleAdventurer_idle-bigger-size.png" width="150" height="161"/>
+ </tileset>
+ <tileset firstgid="636" name="maleAdventurer_idle-bigger-size" tilewidth="20" tileheight="15" tilecount="70" columns="7">
+  <image source="maleAdventurer_idle-bigger-size.png" width="150" height="161"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   <chunk x="16" y="-16" width="16" height="16">
+   eJzty0kOgCAQRFFQnHDA6f7XFJy/N6CXJlT6LTqpUiol5f/Z4BGw48Ap2F+48XyP5pDp+H1O16BAiQq1YN/QtWjRoccg2Du6IybMWLBG7F8TvQm7
+  </chunk>
+   <chunk x="32" y="-16" width="16" height="16">
+   eJztyLURAwEMAME3MzMz9l+gtwApc/g3s8kVRVnZf6tQpUadBs3kR7Vo06FLj37yowYMGTFmwjT5UTPmLFiyYp38qA1bduw5cEx+1IkzF67cuCc/6sGTF28+fJP/A5oNBmc=
+  </chunk>
+   <chunk x="48" y="-16" width="16" height="16">
+   eJzF0bd2QjEUBECRc84ZbHDg//8NcB67UidUec+b4u25WymEEC5cufHGOx/h/nzyxffvT8FHsXD/vuS2TIUqNeoZ+4bbJi3adOhm7Htu+wwYMmKcsZ+4nTJjzoJlxn7lds2GLTv2Gfv/TDX8PXkoUqJMJdHHaVOjToMmrUQfZ0iHLj36DBJ9nDkjxkyYMkv0cbYsWLJizSbRxzmyY8+BBx4TfZwzJ5545oXXRB/nByAOErs=
+  </chunk>
+   <chunk x="-128" y="0" width="16" height="16">
+   eJzty7cRgDAUBFG1hPcI7z30XwtbAMnPCHQzL7tVyszsf7Ngw4ELD76gDxAiQowEqaDPkEOjQIlK0Ndo0KJDj0HQj5gwY8GKTdDvOHDiwo3n4/cCVgIJWw==
+  </chunk>
+   <chunk x="0" y="0" width="16" height="16">
+   eJztyEduQlEQAMEPJphock4mZ7j/6aj1SLwLQEu16Sz79q4ceX4oUKQUfqoyv1SoUqMefqoGTf5o0aYTfqouPfoMGDIKP9WYCVNmzFmEn2rJin/WbNiGn2rHngNHTpzDT3Xhyo07D57hf3ov+9YGwQ==
+  </chunk>
+   <chunk x="16" y="0" width="16" height="16">
+   eJztzkcOwkAQBdE2JkcTnCMG22S4/+moFhdoVmwo6W2+eqQR+eQ7IgFCRIiROGIu5TZDjgIlqi/e/6o+BhhCv9uDa9y1KWaYY4QxJsZd87DGBgsssTLuWoAQEbbYwTfuWoYcBWIkSI27VuOAI0pU2Bt37YQzLmjQojPu2gNPvHDFDXfj/k/kDaQcDOs=
+  </chunk>
+   <chunk x="32" y="0" width="16" height="16">
+   eJxjYMAE2kCsA8S6QKwHxPpAbIBDfBSMglFAGvgOxD+A+CeZ+v8C8T8g/k+mfmZGBgYWIGYFYgDgVAfk
+  </chunk>
+   <chunk x="48" y="0" width="16" height="16">
+   eJztyUkSgCAMBdGgONxFVO5/MUeGrnIli5wgXbxFPlFEFgSs2LAjKrtlWV83Hrw4cOJqdjXHQ4fEmVGaXWvkf8KMHh6D++9aFX3pDmI=
+  </chunk>
+   <chunk x="-128" y="16" width="16" height="16">
+   eJzt0bURAwEMRcFryczMzIz9V+Et4BwotjWzmV70kyT9Dhw5cebC9ctv2t248+DJi3egz5AlR54CxUBfokyFKjXqgb5BkxZtOnQDfY8+A4aMGAf6CVNmzFmwDPQr1mzYsmMf6P/7/8b+H5hqGzE=
+  </chunk>
+   <chunk x="-96" y="16" width="16" height="16">
+   eJxjYBgFo2BoAkYK9bNTqJ+XQv3CFOqXpFC/PBADACdAAGE=
+  </chunk>
+   <chunk x="-80" y="16" width="16" height="16">
+   eJzl0EUSwkAUhOEJMWIQgQjEkPtfDyvkH05Ar0nlW0xX9+YZ8z/fBVfccMdD3D/xwts+HH5H27v0PfgIEIr7iH6MBCkycb+mn6NAiUrcb+nXaNCiE/d7+j0GjJiwIHfhwUdgvqf9OV8iQowEKUIhX9m7IEeBEpmQb+xdUKNBi0rId/Yu6DFgRCfkMw444oQzJiH/ACiDEI0=
+  </chunk>
+   <chunk x="-64" y="16" width="16" height="16">
+   eJzV0DcOgDAUBFGbYJKhQBSIAlFw/+uRw3AEayssveJLO42N+fc7xT6yWp+LfSP2ndgPYj+JvdNy48W+DdguWLFhx4E+oL9w4/kO/s1iDOhj9glSOGSYA/qCfYkKHjVeC0gKGw==
+  </chunk>
+   <chunk x="-48" y="16" width="16" height="16">
+   eJxjYBgFo2Dkgj8U6mdipEw/B4X6+SjUDwAKjAEY
+  </chunk>
+   <chunk x="-32" y="16" width="16" height="16">
+   eJztyCUSAwEQAMELMzMz/v+BabluVdxNVZspirKy/1WhSo06DZrhZ7Vo06FLj374WQOGjBgzYRp+1ow5C5asWIeftWHLjj0HjuFnnThz4cqNe/hZD568ePPhG/4PeCYEmQ==
+  </chunk>
+   <chunk x="-16" y="16" width="16" height="16">
+   eJyl0VdSw0AUBEA5y3IOknMCB+D+d8MRaDgBr7y1/bFTM1+bJM+fT85cuHLjHtg/+OL791FyKZf+v6/oVqlRp0Ea2Dd1M1q06dAN7Hu6fQYMGTEO7HPdgglTZswD+4XukhVrNmwD+2dOhSo16snf9yXlQN4ko0WbBmkg79FnwJAO3UCeUzBhyohxIF+wZMWaGfNAvuOFV/Zs2AbyE2+888GBYyD/AUr4FIk=
+  </chunk>
+   <chunk x="16" y="16" width="16" height="16">
+   eJztyTESgCAMBVECCt7/sqCguLSZgYoyO7wifOcsy9pVRsGNBxVtselefOjjEB68zDdd4O/AiYiES+bbD7DgEPk=
+  </chunk>
+   <chunk x="32" y="16" width="16" height="16">
+   eJyl0jcOwlAQRdFvKgMFpgAKYBFgEEkkmSCwLZJIIu1/DxTcmu6Nn3TKO9U4py/vOVdA0TPErEQXoGzsK3RV1Ix9na6BprG3roU2QnTQFfse+hhgiJHYjzHBFDPMxT7CAkussBb7DbaIkSAV+x32OOCIk9ifccEVN9zF/oEnXnjjg69443+5jD/oZ+x/c40NOQ==
+  </chunk>
+   <chunk x="48" y="16" width="16" height="16">
+   eJzdyTUWwlAURdGkBIK7MwXc3d1d5z8KTvnS5Fc0nLV2c6+ha5oTLthghwOG2K3y8fsRgBseeHXzblWEP4oYggghrJt3q1L8aWQQRwJJ3bz/shKyyCGPAoqKXdZAGRVUUUNdsct6aKKFNjroKnbZBH0MMMQIY8UuW2GKGeZYYKnYZQesscEWO+wVu+yGI04444KrYpd9cMcDT7zwVuz/1BctwCCh
+  </chunk>
+   <chunk x="64" y="16" width="16" height="16">
+   eJzty0EKgCAURVGjDDLBDFL3v8lSsLwtoT8LfHAGb3CV6uv7z05cyCiCvuLG857hez/STNCYBf1CY7DCCnpHs8FjF/QHTUBEQgNmGwfG
+  </chunk>
+   <chunk x="80" y="16" width="16" height="16">
+   eJxjYBgFo2DgwG8g/kOBfkZGBgYmRvL1swP1clCgnxeol48C/cJAvSIU6JcE6pWiQD8AQEcCiQ==
+  </chunk>
+   <chunk x="112" y="16" width="16" height="16">
+   eJztyDUOxAAQwMB8KczMF4b/v+VcRltsmyaWprFhfH29mwkLNhy48JQv8xEgRIQYifJlKTLkKFCiUr6sRoMWHXoMypeN+GHCjAWr8mUbdhw4ceFW/rM/PbMStQ==
+  </chunk>
+   <chunk x="-128" y="32" width="16" height="16">
+   eJyV0ScSAlEQRdFfsyNyzjkNOceFgAIFChQoUKBgjdwFzPyu7qrj+qpnjPeNMcEUM8yx8Pn1uiVWWGODLXaKPoAgQggjgqiijyGOBJJIIa3oM8gihzwKKCr6EsqooIoa6oq+gSZaaKMDV9F30UMfAwwxUvTS/nvHmIPj30v7H2lPll7a/0x7sfTS/lfam6WX9r/TPiy9tP+T9mXppf3ftB9LL+3/pf3hD4BSJKE=
+  </chunk>
+   <chunk x="-112" y="32" width="16" height="16">
+   eJzty0cKgwAURdGPC7dBjIKJAUvABkYFG9g26N3CH8cHZ/auyL1/nmmIWLDhwDV0/YO/hyd8BMo+5P/CGxE+yj7mnyBFhq+yz/kXKFGhVvYN/x9adOiV/cB/xIQZi7Jf+W/YceBU9hf7uBgl
+  </chunk>
+   <chunk x="-96" y="32" width="16" height="16">
+   eJztyzcSg0AUBNG9DBERIJxAwoOEd/c/C02q7LOZiql62bRS12dotOdMzf7ef8+CDQcPuPAEvY8AIZ6IEAv6F95IkCJDLugLlKhQo8FH0H/RokOPAaOgnzBjwYoN+8/nAFMpCas=
+  </chunk>
+   <chunk x="-80" y="32" width="16" height="16">
+   eJxTY2BgUAdiDSDWBGItIFYFYjUixXWAWBeI9YBYH4gNgFibBPFRMApGwcABAO9tBVE=
+  </chunk>
+   <chunk x="-64" y="32" width="16" height="16">
+   eJzty80SQmAAheEPNagpJCQkTPqP+7+6Xmubzr4z8+zO+zC/L7CMCRFhhxij0Cf8U2Q4ILeEmBX8S1Q4oRb76W7DwQJLLTcuPPhYYS32G2wRIEQk9jH2SJAiE/scRxQoUYl9jTMatOjE/oIeV9xwF/snXnjjg0Hs/5vvCzbcBYM=
+  </chunk>
+   <chunk x="-48" y="32" width="16" height="16">
+   eJyl0UdOw1AUhlFMILQAAUKvA0YZUULvEHov+98GNcB5ygau5SedgaX/k67kWtZR6M0U7JcK9uXg7p0PPvnimx8qwb7FL3/pw80ZnYwG+5JtF92U6aGXqWDfZ9vPABUGGWIh2A/bVhlJNzNGjeVgP247wWS6mems/e/rwX7Wdo75dDOLWfvfrwT7VdZYp8EGm8E2vS222WGXPfZz9AcccsQxJ5zm6M9ocs4Fl1zl6K+54ZY77nnI0T/yxDMvvPLGPyIpFYg=
+  </chunk>
+   <chunk x="-32" y="32" width="16" height="16">
+   eJxjYMAPtIFYB4h1gVgPiPWB2ABJfBSMglEwdAEAY4MBaQ==
+  </chunk>
+   <chunk x="-16" y="32" width="16" height="16">
+   eJzTZWBg0ANifSA2AGJtINYBYl0ixUfBKBgFQxcAAB6dAt0=
+  </chunk>
+   <chunk x="0" y="32" width="16" height="16">
+   eJzty7URwwAUREG1ZGZmlJmp/yq8uZ38XDez2b0kyZbtdznyFChSohzoK1SpUadBM9C3aNOhS49+oB8wZMSYCdNAP2POgiUr1oE+ZcOWHXsOgf7IiTMXrtwC/Z0HT168+fz5fQEFVA2Z
+  </chunk>
+   <chunk x="16" y="32" width="16" height="16">
+   eJzlyUWugjEAReF2iLvDgy3g7vJwd9//KjjD8idNF8BJvsm9Qnxnk0LY4YATLril/rPmYfPCBz8CCEr9Zy3EFkYEUcQQl/rPWoItiRT+kEZG6j+1LHLIo4AiSoZdrYwKqqihjoZhV2uihTY66KJn2NX6GGCIEf4xNuxqE0wxwxwLLA272gprbLDFDnvDrnbAESecccHVsKvdcMcDT7zwNuy/3gd/0SEJ
+  </chunk>
+   <chunk x="32" y="32" width="16" height="16">
+   eJzly8sNggAQAFFpwJMnTtQgSvgFlKAQ+QSRgBAE+q+CaWGzRyd5xzkaB1Un5W8qf0v5n2Hjgisc4e/Cg48AofCPEOOGOxLhn+KBJzLkwv+FAiUq1MK/wRstPuiEf48BX4yYhP+MHxas2IT/v7cD/1ULyQ==
+  </chunk>
+   <chunk x="64" y="32" width="16" height="16">
+   eJzt0UkKg1AURNH312HiHtSAGrABE8EGNIJGsNn/Mrxb+E+HFpzhHZWI3Rwj8sATrrGMmQcfAV72+ek+RIQYb0WfIEWGXNEX+OCLUtFXqNGgVfQdevwwKPoRE/6YFf2CFRt2RX//f+3/B9CoEFU=
+  </chunk>
+   <chunk x="80" y="32" width="16" height="16">
+   eJyTZ2RgUABicoEpEJuRr51i/dZAbEOBfkcgdqJAvzsQe1Cg3xeI/SjQHwzEIRTojwTiKAr0xwNxAgX6R+N/YOMfAN66CIs=
+  </chunk>
+   <chunk x="96" y="32" width="16" height="16">
+   eJzV0UkOglAQRVG2hGKHLSoqoCKdHSDufxXeBVBJ1dCfnMlPvdF1nP94LgYYwsMIY8N+gilm8DHHwrBfYoU1NgiwNex32CPEAUecDPsIMRKcccHVsE9xQ4YcBUrDvsIdDzzxwtuwr9GgxQcdvj13Umdtf6mztr/UWdtf6qztL3XW9pc6S/8/6iUgTQ==
+  </chunk>
+   <chunk x="112" y="32" width="16" height="16">
+   eJyV0kcOg1AMRVFviRRIgRRIgRRIIb3ufxW5w+gXJFs6kzt9FhE54YwLrrjh3tDNe+CJF9744NvQ/y9AC2100EWo6BF66GOAIWJFTzDCGBNMkSp6hhnmWGCJXNELrLDGBluUil5hhz0OOKJWdO32Ztdub3bXzoGnh2L/gGvnyNNjsX/AtXPi6anYP+DaOfP0XOwfcO1ceHop9g+4dq48vRb7B37LEUVj
+  </chunk>
+   <chunk x="128" y="32" width="16" height="16">
+   eJzF0rkOggAQhOF9JUQFFA9APPACtcFG3/8p/LtNtthmCyf5mkmmG5H/ZoZ5YL9EGdhXqAP7A46B/RW3wP6JV2A/4h3Yf/AN7KeiH0gwQWp6LwvRD2TIUZjey1b0AyussTG9l73oBxrs0Jrey0X0Ayd0OJvey0P0A3f0GEzv5QdFuhLL
+  </chunk>
+   <chunk x="-128" y="48" width="16" height="16">
+   eJztyzcSwlAMRdGPCSbnnMHkvBmiSYuEyiyOS+dCoqXhzpzmaWSM3BY77HHAESff/WEZ87SUZ3JxxgVX3HD33T1+X1/+A/icgwghjIiwa9mIIoY4EkgKu1YKaWSQRQ55YdcqoIgSyqigKuxaNdTRQBMttIVdq4MueujDwUDYtYYYYYwJppgJu9YcCyyxwhobYf/3296Lcg6v
+  </chunk>
+   <chunk x="-112" y="48" width="16" height="16">
+   eJzty0dOAgAQhlF6E1CRIh1FQDqnt5DQbsbjCLNiw5+8zZeZn1Qi8csf/+yJ7OD+yIkzl+B/lhxJbq9pMoH+RJk8BYqUAv2VGhWqPPMS6C3eeaNOg2ag9xnQpkOXXqCP+WLIiA8+A33OgglTZnwH+pYdS1as2QT6Y/fdFUFdE6g=
+  </chunk>
+   <chunk x="-96" y="48" width="16" height="16">
+   eJztykdOglEAhVGadOkgghQLvW5GsAC6/1Vwxn8CyRsx4SZn8uXGYpf3yY49X3zzc+Uf3S8Hjpz44z/ySZLigTRxEgE9R54CRTJkA3qZClVqPFIK6E1aPNGmTiOgd3mhR59nOgH9lTfe+WDAMKBPmDJjzohxQF+xZsOWBcuAft9tdwbnNhCf
+  </chunk>
+   <chunk x="-80" y="48" width="16" height="16">
+   eJztyNlKQlEAQNGr2WRzZpqVzeWY/moDmEEppEElZIEVVH6b6wvO631xw3rZURRvCZLMkGKWucC/4pobbplngUXSLLEc+C3uaHPPCqussc4Gm4H/wCMdumTYIss2OfKB/0SPPs/sUGCXPfYpBv4Lr7wx4IBDjjjmhNPAf2fIB5+ccc4FJcpUAn/EF9/8UKVGnUsaNAP/lz/+GUfT4m4C8kseIQ==
+  </chunk>
+   <chunk x="-64" y="48" width="16" height="16">
+   eJztyLtaAWAAgGG3SuQcSXIuRDlECwsLCwuLFhYurfcS/s3ie553+SKR2zZnQZQYD8RJ8Bjwl6xIkiJNhiy5gL9mQ54nChR5phTwt+x4ocwrFd6oBvw9B2rUadCkRTvgH/njnQ86dOnxGfBPnOkz4ItvhowC/oUrYyb8MGXGb8C/d9v+ARIVP0E=
+  </chunk>
+   <chunk x="-48" y="48" width="16" height="16">
+   eJztyzVSRFEARNG/SXRwd3d3ty3B4O7u7rAEDvkLJiOhq05yqzqKElsSyaSQShrpCX5/FyODTLLIJod8CiikiFzyAn2WOeLMs8AipZRRTgXFlAT6EsussMoa61RTQy11VFIV6BtsssU2O+zSSBPNtFBPQ6Dvsc8BhxxxTDsddNJFK22BfsIpZ5xzwSW99NHPAN30BPoV19xwyx33DDPCKGMMMhToDzzyxDMvvDLJFNPMMM5EoL/xzgeffPEd/e+v9wPZ6lKf
+  </chunk>
+   <chunk x="-32" y="48" width="16" height="16">
+   eJztyLURwwAQAEGZmWRGmZn6r87bwkdKfDObXJLkW4EiJcpUqAZ+jToNmrRoB36HLj36DEgDf8iIMROmzAJ/zoIlK9ZsAj9jy449B46Bf+LMhSs37oH/4MmLNx++gf8v3357xgwh
+  </chunk>
+   <chunk x="-16" y="48" width="16" height="16">
+   eJztyEdOQlEAQNEPWLGLooJipdiQrWKJLSpExGCJhViIbWueDbwxE25yJjeKuls/A8SIk6Av8Kvsc8AhR4wwyiBDDJMM/GNOOOWMc6aYZoxxJpgM/AsuuaJGnTnmSTHDLOnAv6bBDU1uWSLHAhmyLAZ+izvueeCRdTZYZoVV1gL/iWdeeKXNJlvkKVCkFPhvvPPBJx32qLDNDruUA/+Lb3745S/q1e3+ARVfIqk=
+  </chunk>
+   <chunk x="0" y="48" width="16" height="16">
+   eJztyCUSAlAAQEGuiru7u2sikUgkEonE0dgj/EbhzWx5kchvu5IiSow4CZKB/0aBNBmy5MgH/js1ipQoU6Ea+B90qNOgSYt24H8yokuPPgOGgf/FgjETpsyYB/43O5asWLNhG/g/XNhz4MiJc+D/99u+PNk9yQ==
+  </chunk>
+   <chunk x="16" y="48" width="16" height="16">
+   eJztyLURwwAQAEG1amaSGWVmKtnbwkdKfDObXJLkW4kyFaoUKAZ+gyYt2tSoB36PPgNSOnQDf8yEKTOGjAJ/yYo1G+YsAn/HngNHMraBf+HKjTsnzoH/4s2HLw+egf8v336DXTxh
+  </chunk>
+   <chunk x="32" y="48" width="16" height="16">
+   eJztyLURwwAQAEG1amaSGWVmKtnbwkdKfDObXJLkW4EiJcpUqAZ+jToNmrRoB36HLj36DEgDf8iIMROmzAJ/zoIlK9ZsAj9jy449B46Bf+LMhSs37oH/4MmLNx++gf8v337izjwh
+  </chunk>
+   <chunk x="48" y="48" width="16" height="16">
+   eJztyLURwwAQAEG1amaSGWVmKtnbwkdKfDObXJLkW4UqBYqUKAd+izY16jRoBv6AlA5devQDf8qMISPGTAJ/zYY5C5asAv/AkYwtO/aBf+POiTMXroH/4cuDJy/egf8v3343nTxB
+  </chunk>
+   <chunk x="64" y="48" width="16" height="16">
+   eJzty1lKgmEAheF/k1aQBs3anDaqzaXNtqUGUINSaIAGqIQysFpDTxv4wCtvOvDcvHCiqL3F6KKbnja/f+slToI+BhlimBH6GQj0U84454IUY4wzwSjJQC9Tocol08wwS5pJpgL9imtq1JlngUWWyDAX6Dfccsc9OfKssMoy2UB/4JEnntlgky22WWM90F945Y0GRXbZY58dCoH+zgdNPjnimBInHHAY6C2++OYn+l+n9wsfdkrt
+  </chunk>
+   <chunk x="80" y="48" width="16" height="16">
+   eJzty8tSAWAAhuG/lCidROTYEaG4HTZ1s2xqkw0bNtlko0vwXMI/Wtj0zTybd+YbhBCGYfu98f6H/4gxe+yT4IBDkhH9g0+OSJHmmBMyEf2LCaeccc4Fl2Qj+pQZV+TIc02BYkSfs+CGEmUqVKlF9G+W1LnljnseeIzoP6x4okGTFs+0I/qaXzp0eeGVHv2I/r/dbgPQCRmz
+  </chunk>
+   <chunk x="96" y="48" width="16" height="16">
+   eJztyDdSQlEAQNFPkCwZRJBgIMfNCAaC+18Fp8WCmVfRcGdOc6Posk+27Pjim58r/3+/7Dlw5MTflZ8gyQMpYsQDfpYceQqkyQT8EmUqVHmkGPAbNHmiRY16wO/wQpcez7QD/itvvPNBn0HAHzNhyowho4C/ZMWaDXMWAf/ebTsDsiYU3Q==
+  </chunk>
+   <chunk x="112" y="48" width="16" height="16">
+   eJztyTcSglAYReEHGDArKuYsYAQ3gzntfxWe4hWMY/NXNtyZrzk3VkodccIZF8Tad79qye+GOx544qXbr/7Wkp8BExYyyCIn6HnYKKCIEsqCXkEVNdTRgCPoTbTQhosOuoLeQx8DDDHCWNAnmGKGORZYCroHHwFWWGMj6FvssEeICAdBT/fffQC/RBdj
+  </chunk>
+   <chunk x="128" y="48" width="16" height="16">
+   eJztyEdOQlEAQNEvIEhX6UWKSC+yGYpKcf+r8AyJA5I3YsJNzuTuoyj64psNW3bsL/61Tpz55YcDx3//Wo8keSBGnETAz5IjxRNpMgH/hVfyFCjyHPBr1ClRpkI14L/RoUGTFu2AP+CDLj36vAf8KTOGjBgzCfifrJmzYMkq4N+7bX8v7RKn
+  </chunk>
+   <chunk x="144" y="48" width="16" height="16">
+   eJztyLURwwAQAEGZmWRGmZn6r87bwkdKfDObXJLkW4kyFaoUKAZ+gyYt2tSoB36PPgNSOnQDf8yEKTOGjAJ/yYo1G+YsAn/HngNHMraBf+HKjTsnzoH/4s2HLw+egf8v334cVQxh
+  </chunk>
+   <chunk x="160" y="48" width="16" height="16">
+   eJztyLURwwAQAEGZmWRGmZn6r87bwkdKfDObXJLkW4EiJcpUqAZ+jToNmrRoB36HLj36DEgDf8iIMROmzAJ/zoIlK9ZsAj9jy449B46Bf+LMhSs37oH/4MmLNx++gf8v3357xgwh
+  </chunk>
+   <chunk x="176" y="48" width="16" height="16">
+   eJztyLURwwAQAEGZmWRGmZn6r87bwkdKfDObXJLkW4UqBYqUKAd+izY16jRoBv6AlA5devQDf8qMISPGTAJ/zYY5C5asAv/AkYwtO/aBf+POiTMXroH/4cuDJy/egf8v337QhgxB
+  </chunk>
+   <chunk x="192" y="48" width="16" height="16">
+   eJztyLURwwAQAEGZmWRGmZn6r87bwkdKfDObXJLkW4kyFaoUKAZ+gyYt2tSoB36PPgNSOnQDf8yEKTOGjAJ/yYo1G+YsAn/HngNHMraBf+HKjTsnzoH/4s2HLw+egf8v334cVQxh
+  </chunk>
+  </data>
+ </layer>
+</map>

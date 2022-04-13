@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="80" height="12" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#55aaff" nextlayerid="6" nextobjectid="1">
+ <editorsettings>
+  <chunksize width="28" height="16"/>
+ </editorsettings>
+ <tileset firstgid="1" source="level2.tsx"/>
+ <layer id="3" name="Don't touch" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eAHt0LEJAEAIA0Bb3X/gdwQh3XNCyhC8KkeAAAECBAgQIECAAAECiUBv+ZJk4+fu7HOXpAYPv1QAvw==
+  </data>
+ </layer>
+ <layer id="4" name="Backround" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgFoyEwGgJDMQRYhqKjB5GbWQeRW0adMhoCoyGAGQJsQCFmTOFRkdEQGA0BpBAA5RNsgB2bIA4xbjRxCSCfEEbWgq4fWW6UPRoCgzEEAHHtAQ4=
+  </data>
+ </layer>
+ <layer id="5" name="Ladders" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eAHt0QEJAAAIA0FbiP2L2kJwnAXGn1UuUaATow6b5nArcYpf4lc1ESBAgAABAgT+Cyxx1QBK
+  </data>
+ </layer>
+ <layer id="2" name="Coins" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eAHtk1EKwCAMQz3C7n/a6UegFFIds5CPCKJW24SnjqHdnmkvd23HdmcCWgTi/+lyFjXWXLnBq7JHe6sJ3LhDvFOMtaJ3MwFzy0S+rVX5dfnqqsuoL71dZ7m34ln/T90TflGPaZ3UYbksjpoY2TnHTUCJwAt5jgKh
+  </data>
+ </layer>
+ <layer id="1" name="Platforms" width="80" height="12">
+  <data encoding="base64" compression="zlib">
+   eAHtld0KgDAIhavrfol6/0dt5+KAiMGoKbEmiG6M4/xwrOua1UpgSo3Nhp+1Ntz6agQKE9iTnnxDR2F9yFnv9KtvdFQ8HHCESvaB1cBuSz4IR/nIO6CenLe3c4a7R9zfYgeOMO/6nvqe/ORbXRInOXfMo/h5MCQ7S9vaQ6+5djdv5MYIPV1Lr+9q8hziKg5xH1vI6eLIo1TrcI1Y0nLZgaH8W2vKc3laPes/grP2p5jL7y2TC8VVBog=
+  </data>
+ </layer>
+</map>
