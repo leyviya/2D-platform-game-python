@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="20" height="10" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#8291e9" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" name="standard_tileset" tilewidth="128" tileheight="128" tilecount="11" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="../Downloads/boxCrate_double.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="../Downloads/coinGold.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="../Downloads/grassCenter (2).png"/>
+  </tile>
+  <tile id="3">
+   <image width="128" height="128" source="../Downloads/grassCorner_left.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="../Downloads/grassCorner_right (2).png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="../Downloads/grassHill_left.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="../Downloads/grassHill_right.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="../Downloads/grassLeft.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="../Downloads/grassMid.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="../Downloads/grassRight.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="../Downloads/stoneHalf_right.png"/>
+   <objectgroup draworder="index">
+    <object id="1" x="0.363636" y="12.9091">
+     <polygon points="0,0 10.3636,-12.7273 117.818,-12.3636 127.091,0.363636 127.091,48.3636 116.909,58.9091 9.45455,59.4545 0,47.0909"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer id="3" name="Moving platforms" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eAFjYBgagBvoTBDGBnCJY1M7KjYaAqSEAABTOAAi
+  </data>
+ </layer>
+ <layer id="2" name="Coins" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eAFjYKANYAIaC8IwgMyGiVFC4zIPlzgldpGilxz7ydFDipuwqR0IO7G5Y7CLAQAmQAAR
+  </data>
+ </layer>
+ <layer id="1" name="Platforms" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eAG1jUEKACEMA92b7v7/v+phpA0VYamCxNRkWkrOeXIwi3KLt+N+a7N/MNceHvUt76JMNJstnbPfEjWjPduJspalXf60h0fJoaed2sOjcP4qnDoALem+g9MBlSABAg==
+  </data>
+ </layer>
+</map>

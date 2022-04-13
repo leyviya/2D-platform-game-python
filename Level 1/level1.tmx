@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="80" height="20" tilewidth="128" tileheight="128" infinite="0" backgroundcolor="#aa00ff" nextlayerid="6" nextobjectid="1">
+ <tileset firstgid="1" source="../../../../../../../../Downloads/Telegram Desktop/level1.tsx"/>
+ <layer id="4" name="Don't touch" width="80" height="20">
+  <data encoding="base64" compression="zlib">
+   eAHt08EKgCAMAFDBbv3//2oHQWTtIEFETxjCnFMfWIpBgAABAgQIECBAgAABAgQIECBA4J8CZ/DsKBeUSREg8KJA7WdnkV3t+uNzzLVrz7F2Vz/WvzYf/cJZ7L5n7bnb56l9DZFPALg=
+  </data>
+ </layer>
+ <layer id="3" name="details" width="80" height="20">
+  <data encoding="base64" compression="zlib">
+   eAHt2DEKwCAQBEArO4n/f20wJKWSNIuQsRXdc5oFS7EIECDwP4EeenIN5aRi2h10pALlECBAgAABApfA6OCnh5EQIECAAAECewgkuvnLv8Jqntne6v7ZmT30TUHgncAJycsAjQ==
+  </data>
+ </layer>
+ <layer id="5" name="Ladders" width="80" height="20">
+  <data encoding="base64" compression="zlib">
+   eAHt1tEJACAMA9HOofvv2SFiryDnv6Z5iFjlUkABBRRQYF/g7o8wMgHV64xMv38o1YvKoUWpXlSOfrRAlvfrvchU3K0AI0D9P5g2fIrvV2aun36ZgLsVUECBtwIN9/4BcA==
+  </data>
+ </layer>
+ <layer id="2" name="Coins" width="80" height="20">
+  <data encoding="base64" compression="zlib">
+   eAHtU0EKwCAM2yv2/6duHsKkOGxrxlQiSLG2aRK349CSA3JADsgBlgPnDVRvFq5wHl/lhRyYwQH85zNwEYd1HWB9RywchpNfcAFmiTst6NpJk9XC0AiM7Pt7+0bnWO2rn72+/aFz9K3Q3+Oe8SDT0+PBvgdHRDY+8CL4kVrgR6IXv9TVuzXDi9XqjeQ8czw1kZmZWjYHNl5GU7ancMe2GMjX0dYwz2WOXW+5Vr7VC+72Tmc5sIIDFz63BZc=
+  </data>
+ </layer>
+ <layer id="1" name="Platforms" width="80" height="20">
+  <data encoding="base64" compression="zlib">
+   eAHtlw0LAjEIhq8g+iCCouj6/3+0CQkvw226M26Uwdhy7lWfvFbTFK8gEASCQBAIAmMQ2KY0LjDOY6S1OIt7UtjDeCxWtAnMEPtlOxreQcCdQPSjO9K/FPTqIy8djw8B70Cv+2/t+8eDi6RhZXVNInwPS3oj2jx6EznR7ytrXzG3Uzq7+wyJ1a/2mVSrxiZxq/HTaHr7bDoFsaes/dQKWePG/Pg5pvnWEvziPvHrZeidloYb88P5mRLRMtTUir3B/+ekHmF2Gs0eVsyj1SPsh99vyEezrjHE+nCd11Tby33pPfnzKO1Ldo2NmCCPUn25n4ZVyYdi4HNtXR8VhR0qMfLjGL+0h3b0R3Zcr1Sf5Mf+a8xYj7TuzSnX6tXxOvcGVE0JBQ==
+  </data>
+ </layer>
+</map>

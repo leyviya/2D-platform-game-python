@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="60" height="20" tilewidth="128" tileheight="128" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" source="../Downloads/2Dgame.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="60" height="20">
+  <data encoding="base64" compression="zlib">
+   eAHtlokKwzAMQ7uL/f8fL6ITPIqb0mMjJDakdnzVUgPpNKUkA8lAMpAMJAN9MvD8wnoVrSWxb97197wVSFz9IRwPkb/neMj3ITZP0i0I57Hdwly9zGBOra/G9e+7wjik1+TITL77op7sRzvKPevb6h/h36qJZqrVMEY76nPWp/5733Ekv/Ye9pP9BijG5PZ/0vK8OE+aMftVK9uLOYrVhD2Ut9yz1v2pGWf9vWx4nlqyfzHbo+AdaX0AOAQBwg==
+  </data>
+ </layer>
+</map>
